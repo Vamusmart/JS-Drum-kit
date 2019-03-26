@@ -1,0 +1,63 @@
+body {
+  background-image: url("https://www.thedj.co.uk/wp-content/uploads/2014/07/music-colour-splash.jpg");
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 40vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+}
+
+.flex-container > div {
+  margin: 2px;
+  line-height: 75px;
+  border: 2px solid red;
+  border-radius: 10px;
+  font-size: 60px;
+  padding: 3px;
+  width: 100px;
+  text-align: center;
+  color: red;
+  background: rgba(172, 255, 47, 0.678);
+}
+
+.flex-hcc {
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+
+  -moz-box-orient: horizontal;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+
+  box-orient: horizontal;
+  box-pack: center;
+  box-align: center;
+}
+
+h5 {
+  color: blue;
+  font-size: 25px;
+  min-width: 100px;
+}
+
+p {
+  color: red;
+  font-size: 40px;
+}
+
+button {
+  padding-bottom: 180px;
+  min-height: 50px;
+  min-width: 50px;
+  background-color: rgba(251, 5, 5, 0.774);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-left-style: solid;
+  border-color: rgb(255, 127, 127);
+  border-style: inset;
+  border-width: 5px;
+}
