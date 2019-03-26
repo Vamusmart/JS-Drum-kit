@@ -42,10 +42,12 @@ h5 {
   color: blue;
   font-size: 25px;
   min-width: 100px;
+  font-family: "Cabin Sketch", cursive;
 }
 
 p {
-  color: red;
+  font-family: "Vast Shadow", cursive;
+  color: rgb(252, 0, 0);
   font-size: 40px;
 }
 
