@@ -1,4 +1,4 @@
-# JS-Drum-kit
+# JS-Drum-kit - Advanced JS and DOM Manipulation
 
 Music Player.
 This is a Javascript Drum Kit/Music Player 
